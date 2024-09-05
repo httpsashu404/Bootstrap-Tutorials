@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="refresh" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Collepse</title>
+</head>
+<body>
+    <!-- 
+              Display break point in Bootsrap  :-
+
+       Size        |      Display      |     use class
+-------------------|-------------------|----------------------     
+    Extra large    |     >=1200px      |         xl
+    large          |     >=992px       |         lg
+    middium        |     >=768px       |         md
+    small          |     >=576px       |         sm
+    extra small    |     <576px        |        None           -->
+
+        <div class="container" ><h1>Collepse </h1>
+        </div><br>
+
+        <div class="container">
+            <p class="d-inline-flex gap-1">
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Link
+                </a>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Button
+                </button>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body text-dark">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nemo modi sunt voluptatibus eligendi alias. Velit exercitationem excepturi natus quibusdam corrupti placeat quaerat ut perspiciatis.
+                </div>
+              </div>
+        </div><br>
+
+        <div class="container">
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                  Toggle width collapse
+                </button>
+              </p>
+              <div style="min-height: 120px;">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                  <div class="card card-body text-dark" style="width: 300px;">
+                    This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="container">
+            <p class="d-inline-flex gap-1">
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">First Targetement</a>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Second Target</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both Target</button>
+              </p>
+              <div class="row">
+                <div class="col">
+                  <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <div class="card card-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloremque eligendi quia corporis fuga? Doloremque quod reprehenderit molestias sequi corrupti! Omnis repudiandae doloribus excepturi dolorum.
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="card card-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloremque eligendi quia corporis fuga? Doloremque quod reprehenderit molestias sequi corrupti! Omnis repudiandae doloribus excepturi dolorum.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+            <center><br><a href="index.html" class="btn btn-warning"><b>Home</b><br></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="Modal.html" class="btn btn-primary"><b>Previous</b><br></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="Tab_plugin.html" class="btn btn-success"><b>Next</b><br></a></center>
+</body>
+</html>

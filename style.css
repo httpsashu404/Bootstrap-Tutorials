@@ -1,0 +1,35 @@
+#properties{
+    text-align: left;
+}
+#align .row{
+    height:250px;
+}
+#mp .row{
+    height: 50px;
+}
+body{
+    background-color: black;
+}
+.container{
+    color: white;
+    background-color: darkred;
+}
+.jumbotron{
+    color: black;
+    background-color: pink;   
+}
+.container-fluid{
+    color: black;
+    background-color: orange;
+}
+.row{
+    color: white;
+    background-color: navy;
+}
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8,
+ .col-9, .col-10, .col-11, .col-12,.col-sm, .col-sm-8, .col-sm-4, .col-sm-6
+{
+    color: black;
+    border: 1px solid white;
+    background-color: silver;
+}

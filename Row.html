@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="refresh" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Row class</title>
+</head>
+<body>
+    <!-- 
+              Display break point in Bootsrap  :-
+
+       Size        |      Display      |     use class
+-------------------|-------------------|----------------------     
+    Extra large    |     >=1200px      |         xl
+    large          |     >=992px       |         lg
+    middium        |     >=768px       |         md
+    small          |     >=576px       |         sm
+    extra small    |     <576px        |        None           -->
+        
+                <div class="container"><h1>Row class</h1>
+                    <div class="row"><b>row-1</b></div>
+                    <div class="row"><b>row-2</b></div>
+                    <div class="row"><b>row-3</b></div>
+                    <div class="row"><b>row-4</b></div>
+                </div><br>
+
+                <div class="container">
+                    <div class="row"><b>Row class</b>
+                        <div class="col"><b>col-1</b></div>
+                        <div class="col"><b>col-2</b></div>
+                        <div class="col"><b>col-3</b></div>
+                    </div><br>
+                    <div class="row"><b>Row class</b>
+                        <div class="col"><b>col-1</b></div>
+                        <div class="col"><b>col-2</b></div>
+                    </div><br>
+                    <div class="row"><b>Row class</b>
+                        <div class="col"><b>col-1</b></div>
+                        <div class="col"><b>col-2</b></div>
+                        <div class="col"><b>col-3</b></div>
+                        <div class="col"><b>col-4</b></div>
+                    </div><br>
+                </div><br>
+             
+                <div class="container"><h1>w-100 class</h1>
+                    <div class="row"><b>w-100 class used for break column</b>
+                        <div class="col">Col-1</div>
+                        <div class="col">Col-2</div>
+                        <div class="w-100"></div>      <!--This used for break column--> 
+                        <div class="col">Col-3</div>
+                        <div class="col">Col-4</div>
+                        <div class="col">Col-5</div>
+                        <div class="col">Col-6</div>
+                    </div>
+                </div><br>
+
+                <div class="container"><h1>Row-col-2 class</h1>
+                    <b>Row-col-2 class used for auto break after two columns</b>
+                    <div class="row row-cols-2">
+                        <div class="col">Col-1</div>
+                        <div class="col">Col-2</div>
+                        <div class="col">Col-3</div>
+                        <div class="col">Col-4</div>
+                        <div class="col">Col-5</div>
+                        <div class="col">Col-6</div>
+                    </div>
+                </div><br>
+
+                <!-- Col-sm three columns iin a row till (>=576px) when display decrease < 576px 
+                these clounms will arrange vertical one by one means column wise-->
+                
+                <div class="container"><h1>Col-sm class</h1>
+                    <b>Col-sm work till small Display size means (>576px)</b>
+                    <div class="row">
+                        <div class="col-sm">Col-sm</div>
+                        <div class="col-sm">Col-sm</div>
+                        <div class="col-sm">Col-sm</div>
+                    </div>
+                </div>
+
+        <center><br><a href="index.html" class="btn btn-warning"><b>Home</b></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="Container-fluid.html" class="btn btn-primary"><b>Previous</b></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="Grid.html" class="btn btn-success"><b>Next</b></a></center>
+</body>
+</html>

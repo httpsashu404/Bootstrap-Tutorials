@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="refresh" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This link work when internet connect this device means online source file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Image & Video</title>
+    <style>
+        img{
+            border: 3px solid darkred;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+              Display break point in Bootsrap  :-
+
+       Size        |      Display      |     use class
+-------------------|-------------------|----------------------     
+    Extra large    |     >=1200px      |         xl
+    large          |     >=992px       |         lg
+    middium        |     >=768px       |         md
+    small          |     >=576px       |         sm
+    extra small    |     <576px        |        None           -->
+
+        <div class="container" ><h1>Image & Video </h1>
+        </div><br>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 text-center m-2" >
+                    <b>Img-fluid</b><br>
+                    <img src="image/photo.png" class="img-fluid" alt="Mypic">
+                </div>
+                <div class="col-sm-2 text-center m-2" >
+                    <b>rounded</b><br>
+                    <img src="image/photo.png" class="img-fluid rounded" alt="Mypic">
+                </div>
+                <div class="col-sm-2 text-center m-2" >
+                    <b>img-thumbnail</b><br>
+                    <img src="image/photo.png" class="img-fluid img-thumbnail" alt="Mypic">
+                </div>
+                <div class="col-sm-2 text-center m-2" >
+                    <b>rounded-circle</b><br>
+                    <img src="image/photo.png" class="img-fluid rounded-circle" alt="Mypic">
+                </div>
+                <div class="col-sm-2 text-center m-2" >
+                    <b>rounded-top</b><br>
+                    <img src="image/photo.png" class="img-fluid rounded-top" alt="Mypic">
+                </div>
+                <div class="col-sm-2 text-center m-2" >
+                    <b>rounded-bottom</b><br>
+                    <img src="image/photo.png" class="img-fluid rounded-bottom" alt="Mypic">
+                </div>
+                <div class="col-sm-2 text-center m-2" >
+                    <b>rounded-pill</b><br>
+                    <img src="image/photo.png" class="img-fluid rounded-pill" alt="Mypic">
+                </div>
+            </div>
+            <div class="row">
+                <figure class="figure">
+                    <img src="image/photo.png" class="img-fluid figure-img" alt="Mypic">
+                    <figcaption class="figure-caption">My Profile pic</figcaption>
+                </figure>
+            </div>
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="image/River.mp4" class="embed-responsive-item " frameborder="0"></iframe>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="embed-responsive embed-responsive-9by16">
+                    <iframe src="image/River.mp4" class="embed-responsive-item " frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+        <center><br><a href="index.html" class="btn btn-warning"><b>Home</b><br></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="Navbar.html" class="btn btn-primary"><b>Previous</b><br></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="Border.html" class="btn btn-success"><b>Next</b><br></a></center>
+</body>
+</html>
